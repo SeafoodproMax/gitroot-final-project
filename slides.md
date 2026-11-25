@@ -7,7 +7,7 @@ Attack path: web `/.git` → memcached → SSH → beth → jen → root
 ## Lab setup
 
 - `GitRoot.ova` verified (MD5 `0d7910629ab3b59fbd5c267d7152fd0a`)
-- VirtualBox blocked by UEFI Secure Boot (unsigned `vboxdrv`, MOK not enrolled)
+- VirtualBox blocked by UEFI Secure Boot
 - Ran under QEMU/KVM + libvirt NAT (DHCP); fixed guest NIC name to `enp0s3` via a systemd `.link`
 
 ## Recon

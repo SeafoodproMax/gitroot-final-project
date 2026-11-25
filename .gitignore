@@ -1,0 +1,36 @@
+# VM images / appliances
+*.ova
+*.ovf
+*.vmdk
+*.qcow2
+*.img
+*.mf
+
+# Archives / wordlists / tooling pulled at runtime
+*.7z
+rockyou.txt
+wordlists/
+GitTools/
+pspy*
+loot/
+recon/
+
+# Keys / secrets (never commit)
+*.pem
+*.key
+id_*
+*_key
+*_key.pub
+*.ppk
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# OS / editor junk
+.DS_Store
+*.swp
+*.log
+*~
